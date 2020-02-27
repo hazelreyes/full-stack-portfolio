@@ -1,25 +1,22 @@
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 180px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+.sidenav1 {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden;
   background-color: black;
+  margin-top: 0px;
 }
 
 .side-name {
   font-family: Krub;
   font-size: 45px;
+  color: white;
   margin-top: 30px;
   margin-bottom: 40px;
   margin-left: -5px;
-  color: white;
-  /* -webkit-text-fill-color: black; 
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white; */
   border: 1px solid white;
   padding: -10px;
   margin: 12%;
@@ -29,6 +26,8 @@
 .side-link {
   font-family: "Trirong";
   margin-top: 30px;
+  margin-left: 20px;
+  padding: 20px;
 }
 
 #side-link-text:hover {
@@ -37,7 +36,7 @@
 }
 
 .main {
-  margin-left: 170px; /* Same as the width of the sidebar */
+  margin-left: 170px;
   padding: 0px 10px;
 }
 
@@ -156,12 +155,87 @@
   text-decoration: underline;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
+@media screen and (max-width: 1200px) {
+  .sidenav1 {
+    width: 170px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: black;
   }
-  .sidenav a {
-    font-size: 18px;
+  .side-name {
+    width: 130px;
+  }
+  .side-link {
+    margin-left: 10px;
+  }
+  .main {
+    margin-left: 160px;
+  }
+  .centered {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .sidenav1 {
+    width: 140px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: black;
+  }
+  .side-name {
+    width: 110px;
+    font-size: 30px;
+  }
+  .side-link {
+    margin-left: 2px;
+  }
+  .main {
+    margin-left: 130px;
+  }
+  .centered {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .sidenav1.sidenav-fixed {
+    -webkit-transform: none !important;
+    transform: none !important;
+  }
+  .centered {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 785px) {
+  .centered {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav {
+    margin-top: -70px;
+    position: fixed;
+    z-index: 1;
+  }
+  .side-name {
+    width: 210px;
+    font-size: 30px;
+    border: 0.5px solid white;
+  }
+  .sidenav {
+    background-color: black;
+  }
+  .centered {
+    font-size: 50px;
+  }
+  .main {
+    margin-left: 0px;
   }
 }

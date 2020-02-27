@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  const sideNav = document.querySelector(".sidenav");
+  M.Sidenav.init(sideNav, {});
 
   function displayModal1() {
     $("#modal1").modal();

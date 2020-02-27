@@ -3,27 +3,36 @@
 
 <head>
     <meta charset="UTF-8" />
-
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Krub|Trirong&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
     <script src="https://code.jquery.com/jquery.js"></script>
 
     <title>Hazel Reyes</title>
 </head>
 
 <body>
-    <ul class="sidenav sidenav-fixed">
+    <ul class="sidenav1 sidenav-fixed hide-on-small-only">
         <div class="side-name">Hazel Reyes</div>
+        <li class="side-link"><a href="#main-image" id="side-link-text" class="white-text">Home</a></li>
+        <li class="side-link"><a href="#about" id="side-link-text" class="white-text">About</a></li>
+        <li class="side-link"><a href="#technologies" id="side-link-text" class="white-text">Technologies</a></li>
+        <li class="side-link"><a href="#projects" id="side-link-text" class="white-text">Projects</a></li>
+    </ul>
+
+    <nav class="topnav show-on-small hide-on-med-and-up" style="background-color: black;">
+        <div class="nav-wrapper" style="background-color: black;">
+            <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile">
+                <div class="side-name">Hazel Reyes</div>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav hide-on-medium-and-up" id="mobile-demo">
         <li class="side-link"><a href="#main-image" id="side-link-text" class="white-text">Home</a></li>
         <li class="side-link"><a href="#about" id="side-link-text" class="white-text">About</a></li>
         <li class="side-link"><a href="#technologies" id="side-link-text" class="white-text">Technologies</a></li>
@@ -36,8 +45,9 @@
             <div class="centered">I AM </br> A </br> FULL-STACK </br> WEB DEVELOPER
             </div>
         </div>
+
         <div class="row">
-            <div class="col s12 m4">
+            <div class="col s12 m12 l4">
                 <div id="card-container" class="card">
                     <div id="about" class="card-image">
                         <img src="assets/images/professional profile pic.jpg" style="width: 200px;height: 200px" />
@@ -58,7 +68,7 @@
                 </div>
             </div>
 
-            <div class="col s12 m8">
+            <div class="second-column col s12 m8">
                 <h2 id="technologies" class="center-align" style="margin-bottom: 60px; font-family: 'Trirong';">
                     Technologies</h2>
                 <img src="assets/images/hcj.png" alt="html css js" class="technologies" />
@@ -71,7 +81,8 @@
                 <div id="modal1" class="modal">
                     <div class="modal-content">
                         <h4 class="modal-title white-text" style="font-family: 'Trirong';">The Saavy Traveler</h4>
-                        <p class="teal-text text-accent-4" style="font-family: Krub;">The saavy traveler is now able to see the top five
+                        <p class="teal-text text-accent-4" style="font-family: Krub;">The saavy traveler is now able to
+                            see the top five
                             restaurants in the city of his or her choosing, watch a video about a restaurant in that
                             city, and add to and delete items on their itinerary.</p>
                     </div>
@@ -85,7 +96,8 @@
                 <div id="modal2" class="modal">
                     <div class="modal-content">
                         <h4 class="modal-title white-text" style="font-family: 'Trirong';">Train Scheduler</h4>
-                        <p class="teal-text text-accent-4" style="font-family: Krub;">By entering a train name, the train's destination, the first
+                        <p class="teal-text text-accent-4" style="font-family: Krub;">By entering a train name, the
+                            train's destination, the first
                             train time, and the frequency of the train in minutes, the user will then be able to see the
                             next arrival of the train and how many minutes away it is.</p>
                     </div>
@@ -99,7 +111,8 @@
                 <div id="modal3" class="modal">
                     <div class="modal-content">
                         <h4 class="modal-title white-text" style="font-family: 'Trirong';">Fun with Food Giphy</h4>
-                        <p class="teal-text text-accent-4" style="font-family: Krub;">The user can either click on an existing button or add one.
+                        <p class="teal-text text-accent-4" style="font-family: Krub;">The user can either click on an
+                            existing button or add one.
                             Upon clicking a button, several GIFs about that button will appear with their rating. The
                             user will also be able to play and pause a GIF's animation by clicking on it.</p>
                     </div>
@@ -113,7 +126,8 @@
                 <div id="modal4" class="modal">
                     <div class="modal-content">
                         <h4 class="modal-title white-text" style="font-family: 'Trirong';">Trivia Game</h4>
-                        <p class="teal-text text-accent-4" style="font-family: Krub;">Clicking "Start" will begin the trivia game. Hint: A 90's kid
+                        <p class="teal-text text-accent-4" style="font-family: Krub;">Clicking "Start" will begin the
+                            trivia game. Hint: A 90's kid
                             will be able to answer all the questions correctly. Once the time runs out or the user
                             clicks "Done", it will be the end of the game. The user will then see the number of correct
                             answers, incorrect answers, and unanswered questions.</p>
@@ -128,7 +142,8 @@
                 <div id="modal5" class="modal">
                     <div class="modal-content">
                         <h4 class="modal-title white-text" style="font-family: 'Trirong';">Crystals Collector</h4>
-                        <p class="teal-text text-accent-4" style="font-family: Krub;">Can you collect a certain number of crystals in order to
+                        <p class="teal-text text-accent-4" style="font-family: Krub;">Can you collect a certain number
+                            of crystals in order to
                             equal the total number needed? Try this game out and see how many times you can win.</p>
                     </div>
                     <div class="modal-footer">
@@ -140,29 +155,28 @@
                 </div>
 
                 <div class="row">
-                    <div class="project-image col s12 m6">
+                    <div class="project-image col s12 m12 l6">
                         <img src=" assets/images/project-one.jpg" alt="project-one" class="project1" href="#modal1" />
                         <p class="center" style="font-size: 20px; font-family: Krub;">the saavy traveler</p>
                     </div>
-                    <div class="project-image col s12 m6">
+                    <div class="project-image col s12 m12 l6">
                         <img src=" assets/images/train-scheduler.jpg" alt="train-scheduler" class="project2"
                             href="#modal2" />
                         <p class="center" style="font-size: 20px; font-family: Krub;">train scheduler</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="project-image col s12 m6">
+                    <div class="project-image col s12 m12 l6">
                         <img src=" assets/images/giftastic.jpg" alt="giftastic" class="project3" href="#modal3" />
                         <p class="center" style="font-size: 20px; font-family: Krub;">fun with food giphy</p>
                     </div>
-                    <div class="project-image col s12 m6">
+                    <div class="project-image col s12 m12 l6">
                         <img src=" assets/images/trivia-game.jpg" alt="trivia-game" class="project4" href="#modal4" />
                         <p class="center" style="font-size: 20px; font-family: Krub;">trivia game</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s0 m3"></div>
-                    <div class="project-image col s12 m6">
+                    <div class="project-image col s12 m12 l6 offset-l3">
                         <img src=" assets/images/crystals-collector.jpg" alt="crystals-collector" class="project5"
                             href="#modal5" />
                         <p class="center" style="font-size: 20px; font-family: Krub;">crystals collector</p>
@@ -174,19 +188,20 @@
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
-                    <div class="contact-me col l6 s12">
+                    <div class="contact-me col l6 m8 s12">
                         <h5 class="white-text" style="font-family: 'Rubik Mono One' ;">Contact Me</h5>
                         <p class="grey-text text-lighten-4" style="font-family: Krub;">
-                            &#128516; We can create something amazing! &#128516; </br>
+                            &#128516; We can create &#128516;</br>something amazing! </br>
                             </br>
                             E-mail address: <a href="mailto:hazelnoriereyes@gmail.com"
                                 target="_blank">hazelnoriereyes@gmail.com</a></br>
                             Phone Number: 818.491.8439
                         </p>
                     </div>
-                    <div class="links-div col l4 offset-l2 s12">
+
+                    <div class="links-div col l4 offset-l2 m1 s12">
                         <h5 class="white-text" style="font-family: 'Rubik Mono One';">Links</h5>
-                        <ul>
+                        <ul style="text-align: center;">
                             <li>
                                 <a class="links grey-text text-lighten-3" href="https://github.com/hazelreyes"
                                     target="_blank" style="font-family: Krub;">GitHub</a>
@@ -208,12 +223,14 @@
                     </div>
                 </div>
             </div>
+
             <div class="footer-copyright">
                 <div class="container" style="font-family: Krub;">
                     Hazel Reyes © Copyright 2020
                 </div>
             </div>
         </footer>
+
     </div>
 
     <script src="assets/javascript/app.js"></script>
