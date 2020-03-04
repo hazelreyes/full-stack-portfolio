@@ -103,7 +103,8 @@
 .project2,
 .project3,
 .project4,
-.project5 {
+.project5,
+.project6 {
   width: 100%;
   height: 100%;
   margin-top: 20px;
@@ -116,7 +117,8 @@
 .project2:hover,
 .project3:hover,
 .project4:hover,
-.project5:hover {
+.project5:hover,
+.project6:hover {
   display: inline-block;
   cursor: pointer;
   outline: none;
@@ -129,7 +131,8 @@
 .project2:active,
 .project3:active,
 .project4:active,
-.project5:active {
+.project5:active,
+.project6:active {
   background-color: rgb(63, 132, 221);
   box-shadow: 0 5px #666;
   transform: translate(-10px, 20px);
