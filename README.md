@@ -1,6 +1,6 @@
 # Updated-Portfolio
 
-https://hazelreyes.github.io/Updated-Portfolio/index.html
+https://hazelreyes.github.io/Updated-Portfolio/
 
 `Updated-Portfolio` is a website of my portfolio as a web developer, with the help of HTML, Materialize CSS, & Javascript.
 
