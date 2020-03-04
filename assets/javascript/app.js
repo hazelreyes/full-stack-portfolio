@@ -22,10 +22,15 @@ $(document).ready(function() {
     $("#modal5").modal();
     $("#modal5").modal("open");
   }
+  function displayModal6() {
+    $("#modal6").modal();
+    $("#modal6").modal("open");
+  }
 
   $(document).on("click", ".project1", displayModal1);
   $(document).on("click", ".project2", displayModal2);
   $(document).on("click", ".project3", displayModal3);
   $(document).on("click", ".project4", displayModal4);
   $(document).on("click", ".project5", displayModal5);
+  $(document).on("click", ".project6", displayModal6);
 });
