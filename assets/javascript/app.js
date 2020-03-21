@@ -26,6 +26,10 @@ $(document).ready(function() {
     $("#modal6").modal();
     $("#modal6").modal("open");
   }
+  function displayModal7() {
+    $("#modal7").modal();
+    $("#modal7").modal("open");
+  }
 
   $(document).on("click", ".project1", displayModal1);
   $(document).on("click", ".project2", displayModal2);
@@ -33,4 +37,5 @@ $(document).ready(function() {
   $(document).on("click", ".project4", displayModal4);
   $(document).on("click", ".project5", displayModal5);
   $(document).on("click", ".project6", displayModal6);
+  $(document).on("click", ".project7", displayModal7);
 });
