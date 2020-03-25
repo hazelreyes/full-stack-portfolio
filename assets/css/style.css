@@ -1,4 +1,4 @@
-.sidenav1 {
+.sidenav {
   height: 100%;
   width: 180px;
   position: fixed;
@@ -7,7 +7,6 @@
   left: 0;
   overflow-x: hidden;
   background-color: black;
-  margin-top: 0px;
 }
 
 .side-name {
@@ -25,9 +24,8 @@
 
 .side-link {
   font-family: "Trirong";
-  margin-top: 30px;
-  margin-left: 20px;
-  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 #side-link-text:hover {
@@ -38,6 +36,11 @@
 .main {
   margin-left: 170px;
   padding: 0px 10px;
+}
+
+#main-image {
+  -webkit-filter: brightness(70%);
+    filter:brightness(70%);
 }
 
 .container {
@@ -105,9 +108,10 @@
 .project4,
 .project5,
 .project6,
-.project7 {
+.project7,
+.project8 {
   width: 100%;
-  height: 100%;
+  height: 250px;
   margin-top: 20px;
   margin-bottom: 10px;
   float: left;
@@ -120,7 +124,8 @@
 .project4:hover,
 .project5:hover,
 .project6:hover,
-.project7:hover {
+.project7:hover,
+.project8:hover {
   display: inline-block;
   cursor: pointer;
   outline: none;
@@ -135,7 +140,8 @@
 .project4:active,
 .project5:active,
 .project6:active,
-.project7:active {
+.project7:active,
+.project8:active {
   background-color: rgb(63, 132, 221);
   box-shadow: 0 5px #666;
   transform: translate(-10px, 20px);
@@ -162,7 +168,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .sidenav1 {
+  .sidenav {
     width: 170px;
     height: 100%;
     position: fixed;
@@ -186,7 +192,7 @@
   }
 }
 @media screen and (max-width: 1040px) {
-  .sidenav1 {
+  .sidenav {
     width: 140px;
     height: 100%;
   }
@@ -195,7 +201,8 @@
     font-size: 30px;
   }
   .side-link {
-    margin-left: 2px;
+    margin-top: 10px;
+    margin-left: -10px;
   }
   .main {
     margin-left: 130px;
@@ -205,6 +212,21 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .sidenav {
+    width: 70px;
+    height: 100%;
+  }
+  .side-name {
+    width: 40px;
+    font-size: 20px;
+    display: block;
+  }
+  .side-link {
+    transform: rotate(-90deg);
+  }
+  .main {
+    margin-left: 60px;
+  }
   .centered {
     font-size: 45px;
   }
@@ -215,8 +237,8 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .sidenav1 {
-    width: 60px;
+  .sidenav {
+    width: 80px;
     height: 100%;
   }
   .side-name {
