@@ -37,6 +37,7 @@
 .main {
   margin-left: 170px;
   padding: 0px 10px;
+  width: 100%
 }
 
 #main-image {
@@ -203,7 +204,6 @@
 @media screen and (max-width: 1105px) {
   .sidenav {
     width: 140px;
-    height: 100%;
   }
   .side-name {
     width: 110px;
@@ -218,7 +218,7 @@
     margin-left: 130px;
   }
   .centered {
-    font-size: 45px;
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -246,7 +246,7 @@
     margin-right: -30px;
   }
   .centered {
-    font-size: 40px;
+    font-size: 45px;
   }
   .main {
     margin-left: 60px;
@@ -254,24 +254,27 @@
 }
 @media screen and (max-width: 885px) {
   .centered {
-    font-size: 35px;
-  }
-  .main {
-    margin-left: 60px;
-  }
-}
-@media screen and (max-width: 777px) {
-  .centered {
-    font-size: 30px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 663px) {
+  .sidenav {
+    width: 60px;
+  }
+  .side-name {
+    width: 46px;
+    font-size: 13px;
+    display: block;
+  }
   .centered {
-    font-size: 25px;
+    font-size: 40px;
+  }
+  .main {
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 553px) {
   .centered {
-    font-size: 20px;
+    font-size: 35px;
   }
 }
