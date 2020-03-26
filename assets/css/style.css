@@ -37,6 +37,7 @@
 .main {
   margin-left: 170px;
   padding: 0px 10px;
+  width: 90%;
 }
 
 #main-image {
@@ -93,7 +94,7 @@
 
 .technologies {
   height: 100%;
-  width: 350px;
+  width: 315px;
   margin-top: 40px;
   display: block;
   margin-left: auto;
@@ -176,7 +177,7 @@
 }
 @media screen and (max-width: 1400px) {
   .sidenav {
-    width: 170px
+    width: 170px;
   }
   .centered {
     font-size: 56px;
