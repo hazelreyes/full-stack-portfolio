@@ -279,7 +279,7 @@
 }
 @media screen and (max-width: 553px) {
   .centered {
-    margin-left: 45px;
+    margin-left: 25px;
   }
   #main-image {
     height: 810px;
