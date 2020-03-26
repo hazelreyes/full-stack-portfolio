@@ -40,8 +40,10 @@
 }
 
 #main-image {
+  height: 720px;
+  width: 100%;
   -webkit-filter: brightness(70%);
-    filter:brightness(70%);
+  filter: brightness(70%);
 }
 
 .container {
@@ -167,10 +169,19 @@
 .links:hover {
   text-decoration: underline;
 }
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .sidenav {
-    width: 170px;
+    width: 170px
+  }
+  .centered {
+    font-size: 56px;
+  }
+  .main {
+    margin-left: 160px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .sidenav {
     height: 100%;
     position: fixed;
     z-index: 1;
@@ -185,14 +196,11 @@
   .side-link {
     margin-left: 10px;
   }
-  .main {
-    margin-left: 160px;
-  }
   .centered {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1105px) {
   .sidenav {
     width: 140px;
     height: 100%;
@@ -203,13 +211,14 @@
   }
   .side-link {
     margin-top: 10px;
-    margin-left: -10px;
+    margin-left: -5px;
+    text-align: center;
   }
   .main {
     margin-left: 130px;
   }
   .centered {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -218,39 +227,51 @@
     height: 100%;
   }
   .side-name {
-    width: 40px;
-    font-size: 20px;
+    width: 55px;
+    font-size: 17px;
     display: block;
   }
   .side-link {
     transform: rotate(-90deg);
+    margin-left: -50px;
+    margin-top: 40px;
+  }
+  .about-link {
+    margin-right: -50px;
+  }
+  .tech-link {
+    margin-right: -50px;
+  }
+  .proj-link {
+    margin-right: -30px;
+  }
+  .centered {
+    font-size: 40px;
   }
   .main {
     margin-left: 60px;
   }
-  .centered {
-    font-size: 45px;
-  }
 }
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 885px) {
   .centered {
     font-size: 35px;
   }
-}
-@media screen and (max-width: 600px) {
-  .sidenav {
-    width: 80px;
-    height: 100%;
-  }
-  .side-name {
-    width: 210px;
-    font-size: 30px;
-    border: 0.5px solid white;
-  }
-  .centered {
-    font-size: 50px;
-  }
   .main {
-    margin-left: 50px;
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 777px) {
+  .centered {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 663px) {
+  .centered {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 553px) {
+  .centered {
+    font-size: 20px;
   }
 }
