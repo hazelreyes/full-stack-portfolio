@@ -7,6 +7,7 @@
   left: 0;
   overflow-x: hidden;
   background-color: black;
+  transform: translateX(0%) !important;
 }
 
 .side-name {
@@ -24,7 +25,7 @@
 
 .side-link {
   font-family: "Trirong";
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 10px;
 }
 
@@ -84,7 +85,7 @@
 }
 
 .technologies {
-  height: 170px;
+  height: 100%;
   width: 350px;
   margin-top: 20px;
   display: block;
