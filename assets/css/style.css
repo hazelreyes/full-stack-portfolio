@@ -234,7 +234,7 @@
   .side-link {
     transform: rotate(-90deg);
     margin-left: -50px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
   .about-link {
     margin-right: -50px;
@@ -275,6 +275,10 @@
 }
 @media screen and (max-width: 553px) {
   .centered {
-    font-size: 35px;
+    /* font-size: 35px; */
+    margin-left: 20px;
+  }
+  #main-image {
+    height: 850px;
   }
 }
