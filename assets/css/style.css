@@ -87,10 +87,14 @@
   background-color: black;
 }
 
+#technologies {
+  margin-top: 100px;
+}
+
 .technologies {
   height: 100%;
   width: 350px;
-  margin-top: 20px;
+  margin-top: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
