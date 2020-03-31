@@ -185,6 +185,9 @@
   .main {
     margin-left: 160px;
   }
+  #main-image {
+    height: 690px;
+  }
 }
 @media screen and (max-width: 1240px) {
   .sidenav {
@@ -205,6 +208,9 @@
   .centered {
     font-size: 50px;
   }
+  #main-image {
+    height: 700px;
+  }
 }
 @media screen and (max-width: 1105px) {
   .sidenav {
@@ -224,6 +230,9 @@
   }
   .centered {
     font-size: 50px;
+  }
+  #main-image {
+    height: 690px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -256,10 +265,16 @@
   .main {
     margin-left: 60px;
   }
+  #main-image {
+    height: 670px;
+  }
 }
 @media screen and (max-width: 885px) {
   .centered {
     font-size: 45px;
+  }
+  #main-image {
+    height: 670px;
   }
 }
 @media screen and (max-width: 663px) {
@@ -277,12 +292,15 @@
   .main {
     margin-left: 50px;
   }
+  #main-image {
+    height: 680px;
+  }
 }
 @media screen and (max-width: 553px) {
   .centered {
     margin-left: 25px;
   }
   #main-image {
-    height: 810px;
+    height: 670px;
   }
 }
