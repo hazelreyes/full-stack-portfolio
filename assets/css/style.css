@@ -118,7 +118,8 @@
 .project5,
 .project6,
 .project7,
-.project8 {
+.project8,
+.project9 {
   width: 100%;
   height: 250px;
   margin-top: 20px;
@@ -134,7 +135,8 @@
 .project5:hover,
 .project6:hover,
 .project7:hover,
-.project8:hover {
+.project8:hover,
+.project9:hover {
   display: inline-block;
   cursor: pointer;
   outline: none;
@@ -150,7 +152,8 @@
 .project5:active,
 .project6:active,
 .project7:active,
-.project8:active {
+.project8:active,
+.project9:active {
   background-color: rgb(63, 132, 221);
   box-shadow: 0 5px #666;
   transform: translate(-10px, 20px);
@@ -301,6 +304,6 @@
     margin-left: 25px;
   }
   #main-image {
-    height: 670px;
+    height: 680px;
   }
 }

@@ -34,6 +34,10 @@ $(document).ready(function() {
     $("#modal8").modal();
     $("#modal8").modal("open");
   }
+  function displayModal9() {
+    $("#modal9").modal();
+    $("#modal9").modal("open");
+  }
 
   $(document).on("click", ".project1", displayModal1);
   $(document).on("click", ".project2", displayModal2);
@@ -43,4 +47,5 @@ $(document).ready(function() {
   $(document).on("click", ".project6", displayModal6);
   $(document).on("click", ".project7", displayModal7);
   $(document).on("click", ".project8", displayModal8);
+  $(document).on("click", ".project9", displayModal9);
 });
