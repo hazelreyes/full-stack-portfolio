@@ -25,8 +25,8 @@
 
 .side-link {
   font-family: "Trirong";
-  margin-top: 5px;
-  margin-left: 10px;
+  margin-top: -7px;
+  margin-left: 0px;
 }
 
 #side-link-text:hover {
@@ -87,12 +87,19 @@
   background-color: black;
 }
 
-#technologies,
+.svcsBG {
+  background-color: rgb(39, 133, 133);
+  margin-top: 40px;
+  padding: 2px 0px 70px;
+}
+
+#sA,
 #projects {
   margin-top: 100px;
 }
 
-.technologies {
+.technologies,
+.sA {
   height: 100%;
   width: 315px;
   margin-top: 50px;
@@ -255,16 +262,13 @@ hr {
   .side-link {
     transform: rotate(-90deg);
     margin-left: -50px;
-    margin-top: 50px;
+    margin-top: 28px;
   }
-  .about-link {
-    margin-right: -50px;
-  }
-  .tech-link {
-    margin-right: -50px;
-  }
+  .home-link,
+  .about-link,
+  .tech-link,
   .proj-link {
-    margin-right: -30px;
+    margin-right: -20px;
   }
   .centered {
     font-size: 45px;
