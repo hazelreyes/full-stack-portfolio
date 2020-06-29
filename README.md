@@ -1,8 +1,8 @@
-# Updated-Portfolio
+# full-stack-portfolio
 
-https://hazelreyes.github.io/Updated-Portfolio/
+https://hazelreyes.github.io/full-stack-portfolio/
 
-`Updated-Portfolio` is a website of my portfolio as a web developer, with the help of HTML, Materialize CSS, & Javascript.
+`full-stack-portfolio` is a website of my portfolio as a web developer, with the help of HTML, Materialize CSS, & Javascript.
 
 ## Purpose
 
@@ -20,8 +20,8 @@ To create a portfolio that reflects who I am while showcasing my talents as a we
 
 1. Install Visual Studio Code
 1. Install Git Bash
-1. Create repository `Updated-Portfolio` in GitHub
-1. Use Git Bash to `git clone` the repo `Updated-Portfolio`
+1. Create repository `full-stack-portfolio` in GitHub
+1. Use Git Bash to `git clone` the repo `full-stack-portfolio`
 1. Create `index.html` file and `assets` folder
 1. Inside `assets` folder, create folders `css` and `javascript`
 1. Inside the `css` folder, create `reset.css` file
